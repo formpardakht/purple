@@ -5,7 +5,13 @@
 @endsection
 
 @section('content')
-  <div class="text-center py-5">
-    <h1 class="text-center">{{ lang('lang.not_found') }}</h1>
+  <div class="container-contact100">
+    <div class="wrap-contact100" style="width: auto">
+      <div class="contact100-form">
+        <span class="contact100-form-title" style="padding-bottom: 0">
+          {{ lang('lang.not_found') }}
+        </span>
+      </div>
+    </div>
   </div>
 @endsection
